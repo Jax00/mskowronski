@@ -1,5 +1,12 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+$config['admin_main_page_url'] = 'http://localhost:3000/mskowronski/index.php/admin/adminMainPage';
+$config['main_page_url'] = 'http://localhost:3000/mskowronski/index.php/admin/test';
+$config['admin_controller'] = 'http://localhost:3000/mskowronski/index.php/admin';
+$config['main_controller'] = 'http://localhost:3000/mskowronski/index.php/mainController';
+$config['admin_user']['user'] = 'mskowronski';
+$config['admin_user']['password'] = '12345';
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -224,7 +231,7 @@ $config['cache_path'] = '';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'mskowronski';
 
 /*
 |--------------------------------------------------------------------------
